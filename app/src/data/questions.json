@@ -45,7 +45,7 @@
       "Selbstjustiz"
     ],
     "image": null,
-    "correctAnswer": 1
+    "correctAnswer": 2
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
       "Alle wahlberechtigten Personen müssen wählen."
     ],
     "image": null,
-    "correctAnswer": 1
+    "correctAnswer": 2
   },
   {
     "id": 6,
@@ -141,7 +141,7 @@
       "Nein, denn nur der Bundesrat kann die Pressefreiheit abschaffen."
     ],
     "image": null,
-    "correctAnswer": 3
+    "correctAnswer": 2
   },
   {
     "id": 13,
@@ -381,7 +381,7 @@
       "Rechtsprechung"
     ],
     "image": null,
-    "correctAnswer": 1
+    "correctAnswer": 2
   },
   {
     "id": 33,
@@ -405,7 +405,7 @@
       "ein Sozialstaat"
     ],
     "image": null,
-    "correctAnswer": 1
+    "correctAnswer": 2
   },
   {
     "id": 35,
@@ -465,7 +465,7 @@
       "eine eigene Regierung"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 40,
@@ -825,7 +825,7 @@
       "Bezirksämter"
     ],
     "image": null,
-    "correctAnswer": 1
+    "correctAnswer": 2
   },
   {
     "id": 70,
@@ -1209,7 +1209,7 @@
       "Arbeitgeberinnen und Arbeitgeber."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 102,
@@ -1233,7 +1233,7 @@
       "der Bundestagsfraktionen von CDU und SPD"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 104,
@@ -1245,7 +1245,7 @@
       "Die Frau bekommt ein Kind und ihr Chef weiß das."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 105,
@@ -1257,7 +1257,7 @@
       "Sie zählen die Stimmen nach dem Ende der Wahl."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 106,
@@ -1269,7 +1269,7 @@
       "Sie zählen die Stimmen nach dem Ende der Wahl."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 107,
@@ -1281,7 +1281,7 @@
       "8 Jahre"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 108,
@@ -1293,7 +1293,7 @@
       "Bürgerin/Bürger der Bundesrepublik Deutschland ist und mindestens 21 Jahre alt ist."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 109,
@@ -1305,7 +1305,7 @@
       "alle sechs Jahre"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 110,
@@ -1317,7 +1317,7 @@
       "5 Jahre"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 111,
@@ -1329,7 +1329,7 @@
       "der öffentliche Aufruf zur Vernichtung Israels"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 112,
@@ -1341,7 +1341,7 @@
       "geschlechtsabhängig."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 113,
@@ -1365,7 +1365,7 @@
       "eine Last."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 115,
@@ -1377,7 +1377,7 @@
       "Man muss zur Auszählung der Stimmen gehen."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 116,
@@ -1389,7 +1389,7 @@
       "aktives Wahlrecht."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 117,
@@ -1401,7 +1401,7 @@
       "6%"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 118,
@@ -1413,7 +1413,7 @@
       "alle Menschen"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 119,
@@ -1425,7 +1425,7 @@
       "Ich kann frei entscheiden, wo ich wählen gehen möchte."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 120,
@@ -1437,7 +1437,7 @@
       "allgemeines Männerwahlrecht."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 121,
@@ -1474,7 +1474,7 @@
       "Anwesenheitskontrolle im Bundesrat für Abstimmungen"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 124,
@@ -1486,7 +1486,7 @@
       "der Bundespräsidentin/des Bundespräsidenten."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 125,
@@ -1498,7 +1498,7 @@
       "den Armen mehr Macht zu geben."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 126,
@@ -1522,7 +1522,7 @@
       "die kleinen Parteien nicht so viel Geld haben, um die Politikerinnen und Politiker zu bezahlen."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 128,
@@ -1546,7 +1546,7 @@
       "die Bundespräsidentin/der Bundespräsident."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 130,
@@ -1570,7 +1570,7 @@
       "die/der Vorsitzende einer Partei."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 132,
@@ -1582,7 +1582,7 @@
       "Sie arbeiten in einem Krankenhaus und verdienen dabei Geld."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 133,
@@ -1594,7 +1594,7 @@
       "Kinder ab dem Alter von 14 Jahren dürfen wählen."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 134,
@@ -1618,7 +1618,7 @@
       "Arbeitnehmerinnen und Arbeitnehmer"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 136,
@@ -1630,7 +1630,7 @@
       "Schwierigkeiten nach einem Verkehrsunfall."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 137,
@@ -1642,7 +1642,7 @@
       "das Amtsgericht"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 138,
@@ -1654,7 +1654,7 @@
       "die Arbeitgeberin/den Arbeitgeber bei der Polizei anzeigen"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 139,
@@ -1666,7 +1666,7 @@
       "sein Auto falsch geparkt hat und es abgeschleppt wird."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 140,
@@ -1702,7 +1702,7 @@
       "betreut Jugendliche vor Gericht."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 143,
@@ -1726,7 +1726,7 @@
       "gesetzgebenden Gewalt."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 145,
@@ -1750,7 +1750,7 @@
       "Prozess"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 147,
@@ -1762,7 +1762,7 @@
       "Gesetze erlassen"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 148,
@@ -1774,7 +1774,7 @@
       "die Einhaltung von Gesetzen zu überwachen"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 149,
@@ -1786,7 +1786,7 @@
       "gegen Juden Fußball spielen."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 150,
@@ -1798,7 +1798,7 @@
       "eine Person, die Jura studiert hat."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 151,
@@ -1810,7 +1810,7 @@
       "die USA"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 152,
@@ -1822,7 +1822,7 @@
       "1945 bis 1989"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 153,
@@ -1834,7 +1834,7 @@
       "Ende des Zweiten Weltkriegs in Europa"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 154,
@@ -1846,7 +1846,7 @@
       "1961"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 155,
@@ -1858,7 +1858,7 @@
       "1949 bis 1963"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 156,
@@ -1870,7 +1870,7 @@
       "1936"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 157,
@@ -1918,7 +1918,7 @@
       "der Golfkrieg"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 161,
@@ -1942,7 +1942,7 @@
       "das Attentat auf Hitler am 20. Juli 1944."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 163,
@@ -1954,7 +1954,7 @@
       "1945"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 164,
@@ -1966,7 +1966,7 @@
       "Hitler wird Reichspräsident und lässt alle Parteien verbieten."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 165,
@@ -1990,7 +1990,7 @@
       "bei den Montagsdemonstrationen 1989 in der DDR"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 167,
@@ -2002,7 +2002,7 @@
       "USA, Sowjetunion, Großbritannien, Frankreich"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 168,
@@ -2014,7 +2014,7 @@
       "Japan"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 169,
@@ -2026,7 +2026,7 @@
       "1951"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 170,
@@ -2050,7 +2050,7 @@
       "richtet sich nach Angebot und Nachfrage, aber der Staat sorgt für einen sozialen Ausgleich."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 172,
@@ -2062,7 +2062,7 @@
       "sowjetischen Besatzungszone"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 173,
@@ -2074,7 +2074,7 @@
       "des Warschauer Pakts."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 174,
@@ -2086,7 +2086,7 @@
       "1956"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 175,
@@ -2098,7 +2098,7 @@
       "6"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 176,
@@ -2110,7 +2110,7 @@
       "1=Großbritannien, 2=USA, 3=Sowjetunion, 4=Frankreich"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 177,
@@ -2122,7 +2122,7 @@
       "Frankfurt/Oder"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 178,
@@ -2134,7 +2134,7 @@
       "Die Sowjetunion unterbrach den gesamten Verkehr auf dem Landwege."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 179,
@@ -2146,7 +2146,7 @@
       "durch eine Revolution in Deutschland"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 180,
@@ -2158,7 +2158,7 @@
       "Gerhard Schröder."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 181,
@@ -2170,7 +2170,7 @@
       "Er sprach ein Gebet am Grab des Unbekannten Soldaten."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 182,
@@ -2182,7 +2182,7 @@
       "Kirche"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 183,
@@ -2194,7 +2194,7 @@
       "80er Jahre"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 184,
@@ -2230,7 +2230,7 @@
       "9. November"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 187,
@@ -2242,7 +2242,7 @@
       "DDR"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 188,
@@ -2254,7 +2254,7 @@
       "1961"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 189,
@@ -2266,7 +2266,7 @@
       "1990"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 190,
@@ -2278,7 +2278,7 @@
       "Deutsche Demokratische Republik"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 191,
@@ -2290,7 +2290,7 @@
       "1995"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 192,
@@ -2315,7 +2315,7 @@
       "nur mit dem Flugzeug erreichbar."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 194,
@@ -2339,7 +2339,7 @@
       "Saarland"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 196,
@@ -2375,7 +2375,7 @@
       "Baden-Württemberg"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 199,
@@ -2387,7 +2387,7 @@
       "das Ministerium für Volksbildung."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 200,
@@ -2399,7 +2399,7 @@
       "Saarland"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 201,
@@ -2411,7 +2411,7 @@
       "Sachsen, Thüringen, Hessen, Niedersachen, Brandenburg"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 202,
@@ -2423,7 +2423,7 @@
       "zu den blockfreien Staaten"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 203,
@@ -2435,7 +2435,7 @@
       "Kapitalismus"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 204,
@@ -2447,7 +2447,7 @@
       "Die DDR hat die Bundesrepublik Deutschland besetzt."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 205,
@@ -2471,7 +2471,7 @@
       "an bekannte jüdische Musiker"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 207,
@@ -2483,7 +2483,7 @@
       "im Europabündnis"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 208,
@@ -2495,7 +2495,7 @@
       "ein deutscher Sportverein während des Zweiten Weltkrieges"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 209,
@@ -2507,7 +2507,7 @@
       "Bild 4"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 210,
@@ -2519,7 +2519,7 @@
       "der erste Besuch Fidel Castros"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 211,
@@ -2531,7 +2531,7 @@
       "Ludwig Erhard"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 212,
@@ -2543,7 +2543,7 @@
       "Bundesbezirk Deutschland"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 213,
@@ -2555,7 +2555,7 @@
       "90 Millionen"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 214,
@@ -2579,7 +2579,7 @@
       "Helmut Schmidt"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 216,
@@ -2603,7 +2603,7 @@
       "1949 bis 1990"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 218,
@@ -2615,7 +2615,7 @@
       "7"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 219,
@@ -2627,7 +2627,7 @@
       "1990"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 220,
@@ -2639,7 +2639,7 @@
       "an die Opfer des Nationalsozialismus (Tag der Befreiung des Vernichtungslagers Auschwitz)"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 221,
@@ -2663,7 +2663,7 @@
       "Schweiz"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 223,
@@ -2675,7 +2675,7 @@
       "Griechenland"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 224,
@@ -2687,7 +2687,7 @@
       "Euro Union"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 225,
@@ -2699,7 +2699,7 @@
       "Österreich"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 226,
@@ -2711,7 +2711,7 @@
       "Bild 4"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 227,
@@ -2723,7 +2723,7 @@
       "Schweden"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 228,
@@ -2735,7 +2735,7 @@
       "Europäische Gemeinschaft"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 229,
@@ -2747,7 +2747,7 @@
       "Luxemburg"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 230,
@@ -2771,7 +2771,7 @@
       "Der Begriff meint den Zusammenschluss europäischer Staaten zur EU."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 232,
@@ -2783,7 +2783,7 @@
       "die europäische Verfassung"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 233,
@@ -2807,7 +2807,7 @@
       "Straßburg"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 235,
@@ -2819,7 +2819,7 @@
       "einheitliche Feiertage in den Ländern der EU"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 236,
@@ -2831,7 +2831,7 @@
       "27"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 237,
@@ -2843,7 +2843,7 @@
       "Festlegung der Oder-Neiße-Linie als Ostgrenze"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 238,
@@ -2855,7 +2855,7 @@
       "Bonn, Zürich und Mailand"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 239,
@@ -2867,7 +2867,7 @@
       "durch die \"Londoner Verträge\""
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 240,
@@ -2879,7 +2879,7 @@
       "2005"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 241,
@@ -2891,7 +2891,7 @@
       "Sie muss das Arbeitsamt um Erlaubnis bitten."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 242,
@@ -2903,7 +2903,7 @@
       "die Schulen"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 243,
@@ -2939,7 +2939,7 @@
       "Anne (13 Jahre) und Tim (25 Jahre)"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 246,
@@ -2951,7 +2951,7 @@
       "21"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 247,
@@ -2963,7 +2963,7 @@
       "Wochenbett"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 248,
@@ -2975,7 +2975,7 @@
       "der Schulen."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 249,
@@ -2987,7 +2987,7 @@
       "die Schulen"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 250,
@@ -2999,7 +2999,7 @@
       "Mitglied einer Partei ist."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 251,
@@ -3011,7 +3011,7 @@
       "kann man dafür bestraft werden."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 252,
@@ -3047,7 +3047,7 @@
       "Die Ehegatten führen mindestens ein Jahr getrennt ihr eigenes Leben. Danach ist die Scheidung möglich."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 255,
@@ -3059,7 +3059,7 @@
       "Gesundheitsamt."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 256,
@@ -3071,7 +3071,7 @@
       "eine Gaststättenerlaubnis von der zuständigen Behörde"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 257,
@@ -3083,7 +3083,7 @@
       "einer Privatuniversität."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 258,
@@ -3095,7 +3095,7 @@
       "Es kontrolliert, ob das Kind einen Kindergarten besucht."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 259,
@@ -3107,7 +3107,7 @@
       "Krankenversicherung."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 260,
@@ -3119,7 +3119,7 @@
       "Anwesenheitspflicht."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 261,
@@ -3131,7 +3131,7 @@
       "einer Privatuniversität."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 262,
@@ -3179,7 +3179,7 @@
       "zum Standesamt"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 266,
@@ -3191,7 +3191,7 @@
       "um 22 Uhr"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 267,
@@ -3215,7 +3215,7 @@
       "Sie kann die Theorie-Prüfung vielleicht in ihrer Muttersprache machen. Es gibt mehr als zehn Sprachen zur Auswahl."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 269,
@@ -3227,7 +3227,7 @@
       "einen Ferienpass."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 270,
@@ -3239,7 +3239,7 @@
       "nur für Rentnerinnen und Rentner."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 271,
@@ -3251,7 +3251,7 @@
       "Kürbisse vor die Tür stellen"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 272,
@@ -3263,7 +3263,7 @@
       "Ein Mann ist mit zwei Frauen zur selben Zeit verheiratet."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 273,
@@ -3275,7 +3275,7 @@
       "zum Jugendamt."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 274,
@@ -3287,7 +3287,7 @@
       "die Meinungsfreiheit"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 275,
@@ -3299,7 +3299,7 @@
       "die Unterstützung einer Anwältin/eines Anwalts"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 276,
@@ -3311,7 +3311,7 @@
       "Ich kann mich bei der Behördenleiterin/beim Behördenleiter beschweren."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 277,
@@ -3323,7 +3323,7 @@
       "Mutter ist."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 278,
@@ -3347,7 +3347,7 @@
       "die Adresse des nächsten Ordnungsamtes."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 280,
@@ -3359,7 +3359,7 @@
       "warten, bis ein anderer Bescheid kommt."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 281,
@@ -3371,7 +3371,7 @@
       "Freizügigkeit"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 282,
@@ -3383,7 +3383,7 @@
       "Lehrerin/Lehrer"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 283,
@@ -3395,7 +3395,7 @@
       "Ich gehe mit der Rechnung zum Finanzamt."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 284,
@@ -3407,7 +3407,7 @@
       "Alle müssen früher aufhören zu arbeiten, weil sich alles ändert."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 285,
@@ -3419,7 +3419,7 @@
       "Umsatzsteuer"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 286,
@@ -3443,7 +3443,7 @@
       "die Versicherungspflicht"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 288,
@@ -3455,7 +3455,7 @@
       "aus der christlichen Tradition"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 289,
@@ -3467,7 +3467,7 @@
       "er keine Erfahrungen im Beruf hat."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 290,
@@ -3479,7 +3479,7 @@
       "die Garantie verlängern"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 291,
@@ -3503,7 +3503,7 @@
       "Der Staat entscheidet, an welchen Gott die Menschen glauben."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 293,
@@ -3515,7 +3515,7 @@
       "Raketen in die Luft schießen"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 294,
@@ -3539,7 +3539,7 @@
       "der Islam"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 296,
@@ -3551,7 +3551,7 @@
       "Allerheiligen."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 297,
@@ -3563,7 +3563,7 @@
       "Türkei"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 298,
@@ -3587,7 +3587,7 @@
       "Schichtarbeiterinnen/Schichtarbeiter."
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 300,
@@ -3611,7 +3611,7 @@
       "Bild 4"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 302,
@@ -3623,7 +3623,7 @@
       "Börde"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 303,
@@ -3635,7 +3635,7 @@
       "6"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 304,
@@ -3647,7 +3647,7 @@
       "20"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 305,
@@ -3659,7 +3659,7 @@
       "weiß-rot"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 306,
@@ -3671,7 +3671,7 @@
       "bei der Verbraucherzentrale"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 307,
@@ -3695,7 +3695,7 @@
       "4"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 309,
@@ -3707,7 +3707,7 @@
       "Ministerpräsidentin/Ministerpräsident"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 310,
@@ -3719,6 +3719,6 @@
       "Innenministerin/Innenminister"
     ],
     "image": null,
-    "correctAnswer": 0
+    "correctAnswer": 2
   }
 ]
