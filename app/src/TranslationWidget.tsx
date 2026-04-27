@@ -12,7 +12,7 @@ export const TranslationWidget: React.FC = () => {
 
       window.googleTranslateElementInit = () => {
         new window.google.translate.TranslateElement(
-          { pageLanguage: 'de', layout: window.google.translate.TranslateElement.InlineLayout.SIMPLE },
+          { pageLanguage: 'de' },
           'google_translate_element'
         );
       };

@@ -269,3 +269,25 @@ h1 {
 .goog-te-gadget-simple .goog-te-menu-value span {
   color: var(--text-color) !important;
 }
+
+/* Fix Google Translate dropdown height */
+iframe.goog-te-menu-frame {
+  max-height: 50vh !important;
+  overflow-y: auto !important;
+  border-radius: 8px !important;
+  box-shadow: var(--shadow) !important;
+}
+
+.goog-te-gadget {
+  font-family: inherit !important;
+  color: transparent !important;
+}
+
+.goog-te-gadget .goog-te-combo {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-card);
+  color: var(--text-color);
+  font-family: inherit;
+}

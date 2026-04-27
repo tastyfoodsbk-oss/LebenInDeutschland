@@ -30,9 +30,7 @@ export const Results: React.FC<ResultsProps> = ({ questions, answers, onHome, on
         <div style={{ fontSize: '4rem', fontWeight: 800, margin: '1rem 0' }}>
           {score} <span style={{ fontSize: '2rem', color: 'var(--text-muted)' }}>/ {questions.length}</span>
         </div>
-        <p style={{ color: 'var(--text-muted)' }}>
-          Hinweis: Aktuell ist der Lösungs-Schlüssel im PDF nicht markiert. Die App nimmt vorerst an, dass Option 1 (Index 0) richtig ist.
-        </p>
+
       </div>
 
       <div className="flex-between mb-8">
