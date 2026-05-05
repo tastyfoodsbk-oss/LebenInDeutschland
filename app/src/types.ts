@@ -20,3 +20,13 @@ export interface ProgressData {
     total: number;
   }[];
 }
+
+// A single saved (unfinished) quiz session
+export interface SavedSession {
+  startId: number;
+  endId: number;
+  currentIndex: number;
+  totalQuestions: number;
+  answers: Record<number, number>;
+  savedAt: string;
+}

@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import { Moon, Sun } from 'lucide-react';
 import { Dashboard } from './Dashboard';
-import { Quiz } from './Quiz';
+import { Quiz, ACTIVE_SESSION_KEY } from './Quiz';
 import { Results } from './Results';
 import { TranslationWidget } from './TranslationWidget';
-import type { Question, ProgressData } from './types';
+import type { Question, ProgressData, SavedSession } from './types';
 import questionsData from './data/questions.json';
 
 const STORAGE_KEY = 'lid_progress';
@@ -13,7 +13,7 @@ function App() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
   const [progress, setProgress] = useState<ProgressData>({ history: [] });
   const [appState, setAppState] = useState<'dashboard' | 'quiz' | 'results'>('dashboard');
-  
+
   const [currentQuestions, setCurrentQuestions] = useState<Question[]>([]);
   const [answers, setAnswers] = useState<Record<number, number>>({});
 
@@ -33,7 +33,7 @@ function App() {
       try {
         setProgress(JSON.parse(savedProgress));
       } catch (e) {
-        console.error("Could not parse progress", e);
+        console.error('Could not parse progress', e);
       }
     }
   }, []);
@@ -47,42 +47,54 @@ function App() {
 
   const saveProgress = (score: number, total: number) => {
     const newProgress = {
-      history: [
-        { date: new Date().toISOString(), score, total },
-        ...progress.history
-      ]
+      history: [{ date: new Date().toISOString(), score, total }, ...progress.history],
     };
     setProgress(newProgress);
     localStorage.setItem(STORAGE_KEY, JSON.stringify(newProgress));
   };
 
+  const handleResetStats = () => {
+    const empty: ProgressData = { history: [] };
+    setProgress(empty);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(empty));
+  };
+
   const handleStartQuiz = (startId: number, endId: number) => {
     const allQs = questionsData as Question[];
-    let selected = allQs.filter(q => q.id >= startId && q.id <= endId);
-    
-    // In the real catalog, 1-300 are general. 301-310 are specific to a state.
-    // Our JSON just has 460 questions consecutively. 
-    // Usually 301-310 is Baden-Württemberg, 311-320 Bayern, etc.
-    // For demo purposes, we just take the requested range.
-    
+    const selected = allQs.filter(q => q.id >= startId && q.id <= endId);
     if (selected.length > 0) {
+      // Overwrite any existing session immediately
+      localStorage.removeItem(ACTIVE_SESSION_KEY);
       setCurrentQuestions(selected);
       setAnswers({});
       setAppState('quiz');
     } else {
-      alert("Ungültiger Bereich oder keine Fragen gefunden.");
+      alert('Ungültiger Bereich oder keine Fragen gefunden.');
+    }
+  };
+
+  const handleResumeQuiz = (session: SavedSession) => {
+    const allQs = questionsData as Question[];
+    const selected = allQs.filter(q => q.id >= session.startId && q.id <= session.endId);
+    if (selected.length > 0) {
+      setCurrentQuestions(selected);
+      setAnswers(session.answers);
+      setAppState('quiz');
     }
   };
 
   const handleFinishQuiz = (finalAnswers: Record<number, number>) => {
     setAnswers(finalAnswers);
-    const score = currentQuestions.reduce((acc, q) => acc + (finalAnswers[q.id] === q.correctAnswer ? 1 : 0), 0);
+    const score = currentQuestions.reduce(
+      (acc, q) => acc + (finalAnswers[q.id] === q.correctAnswer ? 1 : 0),
+      0
+    );
     saveProgress(score, currentQuestions.length);
     setAppState('results');
   };
 
   const handleCancel = () => {
-    if (window.confirm("Test wirklich abbrechen?")) {
+    if (window.confirm('Test wirklich abbrechen? Dein Fortschritt wird gespeichert.')) {
       setAppState('dashboard');
     }
   };
@@ -103,23 +115,29 @@ function App() {
 
       <main className="container">
         {appState === 'dashboard' && (
-          <Dashboard onStartQuiz={handleStartQuiz} progress={progress} />
-        )}
-        
-        {appState === 'quiz' && (
-          <Quiz 
-            questions={currentQuestions} 
-            onFinish={handleFinishQuiz} 
-            onCancel={handleCancel} 
+          <Dashboard
+            onStartQuiz={handleStartQuiz}
+            onResumeQuiz={handleResumeQuiz}
+            onResetStats={handleResetStats}
+            progress={progress}
           />
         )}
-        
+
+        {appState === 'quiz' && (
+          <Quiz
+            questions={currentQuestions}
+            onFinish={handleFinishQuiz}
+            onCancel={handleCancel}
+          />
+        )}
+
         {appState === 'results' && (
-          <Results 
-            questions={currentQuestions} 
-            answers={answers} 
-            onHome={() => setAppState('dashboard')} 
+          <Results
+            questions={currentQuestions}
+            answers={answers}
+            onHome={() => setAppState('dashboard')}
             onRetry={() => {
+              localStorage.removeItem(ACTIVE_SESSION_KEY);
               setAnswers({});
               setAppState('quiz');
             }}
