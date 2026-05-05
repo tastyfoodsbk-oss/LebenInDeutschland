@@ -28,6 +28,8 @@ export const Quiz: React.FC<QuizProps> = ({ questions, onFinish, onCancel }) => 
     return {};
   });
 
+  const [isAdvancing, setIsAdvancing] = useState(false);
+
   const question = questions[currentIndex];
   const progress = (currentIndex / questions.length) * 100;
 
@@ -46,7 +48,21 @@ export const Quiz: React.FC<QuizProps> = ({ questions, onFinish, onCancel }) => 
   }, [answers, currentIndex]);
 
   const handleSelectOption = (optionIndex: number) => {
-    setAnswers(prev => ({ ...prev, [question.id]: optionIndex }));
+    if (isAdvancing) return;
+
+    const newAnswers = { ...answers, [question.id]: optionIndex };
+    setAnswers(newAnswers);
+    setIsAdvancing(true);
+
+    // Auto-advance after a short delay
+    setTimeout(() => {
+      if (currentIndex < questions.length - 1) {
+        setCurrentIndex(prev => prev + 1);
+      } else {
+        localStorage.removeItem(ACTIVE_SESSION_KEY);
+        onFinish(newAnswers);
+      }
+    }, 400);
   };
 
   const handleNext = () => {
@@ -74,7 +90,12 @@ export const Quiz: React.FC<QuizProps> = ({ questions, onFinish, onCancel }) => 
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [question, answers, currentIndex]);
+  }, [question, answers, currentIndex, isAdvancing]);
+
+  // Reset isAdvancing when question changes
+  useEffect(() => {
+    setIsAdvancing(false);
+  }, [currentIndex]);
 
   if (!question) return <div>Keine Fragen gefunden.</div>;
 
